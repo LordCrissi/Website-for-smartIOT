@@ -1,0 +1,1212 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>2026 International Conference on Artificial Intelligence for Science (AI4Science 2026)</title>
+    <meta name="keyword" content="人工智能赋能科学发现与创新,AI For Science">
+    <meta name="description" content="2026 International Conference on Artificial Intelligence for Science (AI4Science 2026) will be held in Shenzhen, China from October 23 to 25.">
+    <link rel="icon" href="https://fhk.ais.cn/cms/website/favicon/i/ic-ai4science.org.c933e6b.ico" type="image/x-icon"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+   <script type="application/javascript" src="https://fhk.ais.cn/file/web/js/layui.all.js"></script>
+   <script type="application/javascript" src="https://fhk.ais.cn/file/web/js/layui.js"></script>
+   <link rel="stylesheet"  type="text/css"  href="https://fhk.ais.cn/file/web/js/css/layui.css">
+   <link rel="stylesheet" type="text/css"  href="https://fhk.ais.cn/file/web/css/19/index.css">
+   <script src="https://img.ais.cn/thirds/common/jquery-1.12.4.min.js"></script>
+   <script src="https://img.ais.cn/thirds/common/jquery.print.js"></script>
+   <link rel="stylesheet" href="https://fhk.ais.cn/file/web/css/swiper.min.css">
+    <link rel="stylesheet" type="text/css"  href="https://fhk.ais.cn/file/web/css/11/newStyle.css">
+    <link rel="stylesheet" type="text/css"  href="https://fhk.ais.cn/file/web/css/common.css">
+   <script src="https://fhk.ais.cn/file/web/js/swiper.min.js"></script>
+  <style>
+    .layui-layout-body {
+      overflow: scroll;
+    }
+    .station-flexs {
+      display: flex;
+      justify-content: center;
+    }
+    .layui-nav .layui-nav-more {
+        display: inline !important;
+    }
+  </style>
+</head>
+<body>
+<div class="page-en">
+	<div class="nav-bar">
+
+    <section class="nav-Tem-two select-Color" id="section">
+        <div class="tem-en-nav">
+
+            <input type="checkbox" id="nav-toggle">
+            <label for="nav-toggle" class="nav-toggle-btn">☰</label>
+            <style>#nav-toggle{display:none;} .nav-toggle-btn{display:none;}</style>
+
+            <ul class="layui-nav" id="layui-nav">
+                <li style="list-style: none;display: inline-block;vertical-align: middle;line-height: 60px;position: relative; padding-right: 20px;">
+                    <img src="https://fhk.ais.cn/cms/website/common/202509/303250905171326104.png" alt="logo" class="logo">
+                </li>
+                <li class="layui-nav-item" data-param="1"><a
+                            href="./">Home</a></li>
+
+                        <li class="layui-nav-item" data-param="2">
+                            <a href="./committee"
+                                >Committee</a>
+
+                        <li class="layui-nav-item" data-param="3">
+                            <a href="./call_for_paper"
+                                >Call For Papers</a>
+
+                        <li class="layui-nav-item" data-param="4">
+                            <a href="./SubmissionAll"
+                                >Submission</a>
+                                <dl class="layui-nav-child">
+                                            <dd>
+                                                <a href="./submission"
+                                                    >Submission</a>
+                                            </dd>
+                                            <dd>
+                                                <a href="./EditorialPolicy"
+                                                    >Editorial Policy</a>
+                                            </dd>
+                                            <dd>
+                                                <a href="./GuidelinesforAITools"
+                                                    >Guidelines for AI Tools</a>
+                                            </dd>
+                                </dl>
+                                </li>
+
+                        <li class="layui-nav-item" data-param="5">
+                            <a href="./RegistrationAll"
+                                >Registration</a>
+                                <dl class="layui-nav-child">
+                                            <dd>
+                                                <a href="./registration"
+                                                    >Registration</a>
+                                            </dd>
+                                            <dd>
+                                                <a href="./VisaApplication"
+                                                    >Visa Application</a>
+                                            </dd>
+                                </dl>
+                                </li>
+
+                        <li class="layui-nav-item" data-param="6">
+                            <a href="./Publication"
+                                >Publication</a>
+
+                        <li class="layui-nav-item" data-param="7">
+                            <a href="./program"
+                                >Program</a>
+
+                        <li class="layui-nav-item" data-param="8">
+                            <a href="./contact"
+                                >Contact</a>
+
+                        <li class="layui-nav-item" data-param="9">
+                            <a href="./download"
+                                >Download</a>
+
+            </ul>
+        </div>
+
+        <div class="e-icon">
+            <ul class="layui-nav layui-icon" id="layui-icon" style="display:none">
+                <i id="icon-down" class="layui-icon layui-icon-down"
+                   style="font-size: 20px; color: #ffffff;position: relative; left: -20px;"></i>
+                <i id="icon-up" class="layui-icon layui-icon-up"
+                   style="font-size: 20px; color: #FFFFFF;display :none;"></i>
+            </ul>
+        </div>
+    </section>
+
+</div>
+<input type="hidden" id="lang" value="cn"/>
+<script type="application/javascript" src="https://fhk.ais.cn/file/web/js/layui.all.js"></script>
+<script type="application/javascript" src="https://fhk.ais.cn/file/web/js/pc_common.js"></script>
+<script type="text/javascript">
+    //导航栏显示
+    var hbOX = document.getElementById("layui-nav");
+    var h = hbOX.clientHeight | hbOX.offsetHeight;
+    var ch = (hbOX.clientWidth | hbOX.offsetWidth) - 40;
+    var icon = document.getElementById("layui-icon");
+    var num = document.getElementById("layui-nav").getElementsByTagName('li');
+    var liContent = document.getElementById("layui-nav")
+    var section = document.getElementById("section")
+    section.style.display = "flex";
+    section.style.alignItems = "center";
+    getHide();
+    icon.onmouseover = function () {
+        var total = 0;
+        b = c;
+        for (var i = 0; i <= num.length; i++) {
+            total += $(num[i]).width();
+            if (total >= ch) {
+                $(num[i]).show()
+            }
+        }
+    };
+    liContent.onmouseleave = function () {
+        // section.style.height = ''
+        getHide();
+    }
+
+    function getHide() {
+        var total = 0;
+        for (var i = 0; i <= num.length; i++) {
+            total += $(num[i]).width();
+            if (total >= ch) {
+                $("#layui-icon").show();
+                $(num[i]).hide()
+            }
+        }
+    }
+
+    $(function () {
+        //获取浏览器url 参数
+        auth_website = getQueryString("auth_website");
+    });
+    link()
+
+    function link() {
+        if (document.querySelector('.link')) {
+            var link = document.querySelector('.link').clientHeight
+            document.querySelector('.header-Tem-two-page').style.marginTop = link + 'px'
+            // document.querySelector('.header-Tem-two-page')
+            var containeTem = document.querySelector('.container-Tem-two')
+            containeTem.style.top = link + 'px'
+            var headerTemH = document.querySelector('.header-Tem-two-page').clientHeight
+            var navH = document.querySelector('.nav-Tem-two')
+            navH.style.top = (link + headerTemH) + 'px'
+        }
+    }
+
+    var homeUrl = 'http://www.ic-ai4science.org/'
+</script>
+
+<div class="home-en">
+	    <div class="layui-carousel" id="test" lay-filter="test1">
+        <div carousel-item>
+
+                    <div><img class="rotation_banner" src="https://fhk.ais.cn/cms/website/functional/pic/202509/303250905171457137.jpg"/></div>
+                    <div><img class="rotation_banner" src="https://fhk.ais.cn/cms/website/functional/pic/202511/357251126104600964.jpg"/></div>
+
+        </div>
+    </div>
+<script type="text/javascript">
+    //轮播样式1
+    layui.use('carousel', function () {
+        var carousel = layui.carousel;
+        //建造实例
+        carousel.render({
+            elem: '#test'
+            , width: '100%' //设置容器宽度
+            , height: '100vh'
+            , arrow: 'always' //始终显示箭头
+            //,anim: 'fade' //切换动画方式
+        });
+    });
+
+</script>
+
+	<div class="page-function" id ="page-function">
+		<div class="context-left">
+		    <div style="background-color: #00000 !important;" >
+        <div class="news-page-en">
+                <div class="news-flex">
+                    <div class="line-en color-line"></div>
+                    <div class="news-title-en color-title">
+                        <span class="news-title-span">Countdown</span>
+                    </div>
+                </div>
+                <div class="content-en">
+                    <style>.colorOne .circle-fill {
+    stroke: currentColor;
+}
+  .timeflex{ display: flex;
+            justify-content: center;
+            align-items: center;
+    margin-bottom:-80px;
+  }
+  
+  .countdown {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+    border-radius:50px;
+        }
+
+        .countdown-container {
+            display: grid;
+            padding: 20px 20px 20px;
+            grid-template-columns: repeat(4, 1fr);
+        }
+
+        .time-unit {
+            position: relative;
+            width: 180px;
+            height: 180px;
+        }
+
+.circle {
+            width: 100%;
+            height: 100%;
+            transform: rotate(-90deg);
+        }
+
+        .timenumber {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 28px;
+    font-weight:bold;
+            text-align: center; 
+        }
+
+        .label { 
+            display: block;
+            margin-top: 5px;
+    font-size: 14px;
+        }
+  
+   @media (min-width: 769px) and (max-width: 1024px){
+     .timeflex{ display: block;}
+}
+  
+  
+@media (max-width:768px) {
+    .timeflex{ display: block;}
+     .countdown { display: flex;}
+    .countdown-container {display: grid;grid-template-columns: repeat(2, 0fr);}
+}</style><div class="zsy"><div class="zsywd"><h2 style="margin-bottom: 24px; text-align: center;padding-top:12px;"><span style="font-family: Calibri;"><span style="color: #3F3F3F;"><strong><span style="font-size: 80px;">Welcome to</span></strong></span><strong><span style="font-size: 80px;">&nbsp;<span class="selected1" style="font-size: 80px; color: #FF592C;">AI4Science</span></span></strong></span></h2><h3 style="text-align: center;margin-bottom: 24px;"><span style="font-size: 28px; color: #7F7F7F; font-family: Calibri;">2026 International Conference on Artificial Intelligence for Science&nbsp;</span></h3><div class="timeflex"><div><h3 style="margin-bottom: 12px; text-align: center;"><span style="font-size: 28px; color: #3F3F3F; font-family: Calibri;"><strong>Countdown to the meeting:</strong></span></h3></div><div class="countdown"><div class="countdown-container"><!-- 天数 --><div class="time-unit colorOne"><svg class="circle"><circle class="circle-fill" cx="90" cy="90" r="60" fill="none" stroke="#0768AC" stroke-width="10"></circle></svg><div class="timenumber" style="color:#3f3f3f;font-family:Calibri;"><span id="days">00</span><span class="label">DAYS</span></div></div><!-- 小时 --><div class="time-unit colorOne"><svg class="circle"><circle class="circle-fill" cx="90" cy="90" r="60" fill="none" stroke="#0768AC" stroke-width="10"></circle></svg><div class="timenumber" style="color:#3f3f3f;font-family:Calibri;"><span id="hours">00</span><span class="label">HOURS</span></div></div><!-- 分钟 --><div class="time-unit colorOne"><svg class="circle"><circle class="circle-fill" cx="90" cy="90" r="60" fill="none" stroke="#0768AC" stroke-width="10"></circle></svg><div class="timenumber" style="color:#3f3f3f;font-family: Calibri;"><span id="minutes">00</span><span class="label">MINUTES</span></div></div><!-- 秒数 --><div class="time-unit colorOne"><svg class="circle"><circle class="circle-fill" cx="90" cy="90" r="60" fill="none" stroke="#0768AC" stroke-width="10"></circle></svg><div class="timenumber" style="color:#3f3f3f;font-family: Calibri;"><span id="seconds">00</span><span class="label">SECONDS</span></div></div></div></div></div></div></div><script>const targetDate = new Date('2026-10-23T00:00:00').getTime();
+        const circles = document.querySelectorAll('circle');
+        const circumference = 2 * Math.PI * 60;
+
+        // 初始化所有圆形进度条
+        circles.forEach(circle =>{
+            circle.style.strokeDasharray = circumference;
+            circle.style.strokeDashoffset = 0;
+        });
+
+        function updateTimer() {
+            const now = new Date().getTime();
+            const distance = targetDate - now;
+
+   if (distance < 0) {
+                document.querySelector('.countdown-container').innerHTML = "<h2>The Meeting Has Already Commenced.</h2>";
+                return;
+            }
+         
+
+            // 时间计算
+            const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            // 更新数字显示
+            document.getElementById('days').textContent = days;
+            document.getElementById('hours').textContent = hours.toString().padStart(2, '0');
+            document.getElementById('minutes').textContent = minutes.toString().padStart(2, '0');
+            document.getElementById('seconds').textContent = seconds.toString().padStart(2, '0');
+
+            // 更新进度条（每个单位独立计算）
+            circles[0].style.strokeDashoffset = circumference * ((distance % (1)) / (1000 * 60 * 60 * 24));   // 天进度
+            circles[1].style.strokeDashoffset = circumference * ((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60 * 24));         // 小时进度
+            circles[2].style.strokeDashoffset = circumference * ((distance % (1000 * 60*60)) / (1000 * 60*60));                    // 分钟进度
+            circles[3].style.strokeDashoffset = circumference * ((distance % (1000 * 60)) / (1000 * 60));                             // 秒进度
+        }
+
+        // 立即执行并每秒更新
+        updateTimer();
+        setInterval(updateTimer, 1000);</script>
+                </div>
+        </div>
+    </div>
+    <div style="background-color: #00000 !important;" >
+        <div class="news-page-en">
+                <div class="news-flex">
+                    <div class="line-en color-line"></div>
+                    <div class="news-title-en color-title">
+                        <span class="news-title-span">about</span>
+                    </div>
+                </div>
+                <div class="content-en">
+                    <style>.bgc{border-radius:30px;}  .zsybk{padding: 0px 4vw;}
+  .dw{background:url(https://fhk.ais.cn/cms/website/editor/202505/384250506142025199.png);background-size:cover;padding:100px;}
+  hr{margin:-20px auto 24px !important;height:8px;border-radius:0px 0px 20px 20px;background:#fff;}
+  
+ @media (max-width:768px) {
+    hr{margin:-20px auto 24px !important;height:8px;border-radius:0px 0px 20px 20px;background:#fff;}
+     .dw{background:url(https://fhk.ais.cn/cms/website/editor/202505/384250506142025199.png);background-size:cover;padding:100px 20px 100px;}
+  }</style><div class="zsy zsybk"><section class="story-part"><div class="bgc select-Color" style="background:#000;"><div class="dw"><h2 style="margin-bottom: 24px; text-align: center;"><span style="font-family: Calibri;"><strong><span style="font-size: 50px; color: #FFFFFF;">☀&nbsp;About AI4Science</span></strong></span></h2><hr style="width:360px;"/><p style="text-align: justify; margin-bottom: 24px; line-height:2em;"><span style="font-family: Calibri; color: #FFFFFF; font-size: 20px;"></span></p><p style="text-align: justify;"><span style="font-family: &quot;Times New Roman&quot;; color: #FFFFFF; font-size: 20px;"></span></p><p style="text-align: justify;"><span style="font-family: Calibri;"><span style="color: #FFFFFF; font-size: 20px;">2026 International Conference on Artificial Intelligence for Science&nbsp;</span><span style="text-align: justify; color: #FFFFFF; font-size: 20px;">(AI4Science 2026) is a premier forum bringing together AI researchers, domain scientists, engineers, and industry practitioners to advance the use of artificial intelligence across the natural and social sciences. The conference emphasizes bidirectional impact: (1) how AI methods unlock new scientific discoveries, simulations, and instruments; and (2) how scientific principles, data, and constraints drive the next generation of reliable, interpretable, and efficient AI.&nbsp;AI4Science features a single-track main program, workshops, tutorials, a datasets/benchmarks track, demos, a doctoral consortium, and a reproducibility &amp; artifacts initiative.&nbsp;The aims of&nbsp;AI4Science&nbsp;include comprehensive coverage of foundational and applied AI that advances scientific inquiry across disciplines; rigor and reproducibility through principled modeling, uncertainty quantification, data governance, and transparent evaluation; cross-disciplinary collaboration by connecting AI method developers with scientists, instrument builders, and HPC communities; real-world impact via open datasets, benchmarks, and deployable systems for laboratories, observatories, and policy settings.</span></span></p><p style="text-align: justify; margin-bottom: 24px; line-height:2em;"><span style="color: #FFFFFF; font-family: Calibri; font-size: 24px;"></span><br/></p><p class=" suofang" style="text-align: center;"><a href="http://www.ic-ai4science.org/Committee" target="_blank" class="input1" textvalue="Committee"><strong><span class="selected1" style="position: relative; z-index: 97; font-size: 24px; font-family: Calibri; text-decoration: none;">Committee</span></strong></a></p></div></div></section></div><style>.input1 {
+	text-decoration:none;/*超链接文字不划线*/
+	padding: 15px 40px; 
+	border-radius: 40px;
+background:#fff;
+}</style>
+                </div>
+        </div>
+    </div>
+    <div style="background-color: #00000 !important;" >
+        <div class="news-page-en">
+                <div class="news-flex">
+                    <div class="line-en color-line"></div>
+                    <div class="news-title-en color-title">
+                        <span class="news-title-span">date</span>
+                    </div>
+                </div>
+                <div class="content-en">
+                    <style>.zsy0nr{display:flex;}
+  .zsy0l{width:42%;margin-right:3%;}
+   .zsy0r{width:55%;}
+   
+ 
+  
+  @media (min-width: 769px) and (max-width: 1200px){
+     .zsy0nr{display:block;}
+    .zsy0l{width:100%;margin-right:0%;margin-bottom:24px;}
+    .zsy0r{width:100%;height:100%;}
+}
+  
+ @media (max-width:768px) {
+.zsy0nr{display:block;}
+    .zsy0l{width:100%;margin-right:0%;margin-bottom:20px;}
+    .zsy0r{width:100%;height:100%;}
+
+  }</style><div class="zsy"><div class="zsywd"><section class="story-part"><div class="zsy0nr"><div class="zsy0l"><div class="nrtabs"><!-- 修改所有日期项的 data-dianji 为 dianji1 --><div class="nrtab djbt active" data-dianji="dianji1"><table><tbody><tr class="firstRow"><td valign="middle" style="word-break: break-all;border:none;" align="center" width="30%"><img class="select-Color" src="https://fhk.ais.cn/cms/website/editor/202503/384250321112830480.png" alt="396240228095637694.png" style="background: rgb(63, 63, 63); border-radius: 15px; width: 70px; height: 70px;" width="70" height="70" border="0" vspace="0"/></td><td valign="middle" style="word-break: break-all;border:none;" align="left" width="70%"><p><span style="font-size: 28px; color: #3F3F3F; font-family: Calibri;"><strong>July 15, 2026</strong></span></p><p style="margin-bottom: 0px;"><span style="color: #3F3F3F; font-family: Calibri; font-size: 20px;"><span style="color: #3F3F3F; font-family: Calibri; font-size: 20px; text-wrap-mode: wrap;">Full Paper Submission Date</span></span></p></td></tr></tbody></table></div><div class="nrtab djbt" data-dianji="dianji1"><table><tbody><tr class="firstRow"><td valign="middle" style="word-break: break-all;border:none;" align="center" width="30%"><img class="select-Color" src="https://fhk.ais.cn/cms/website/editor/202503/384250321112830480.png" alt="396240228095637694.png" style="background: rgb(63, 63, 63); border-radius: 15px; width: 70px; height: 70px;" width="70" height="70" border="0" vspace="0"/></td><td valign="middle" style="word-break: break-all;border:none;" align="left" width="70%"><p><span style="font-size: 28px; color: #3F3F3F; font-family: Calibri;"></span></p><article class="4ever-article"><span style="font-size: 28px; color: #3F3F3F; font-family: Calibri;"><strong>August 20, 2026</strong></span></article><article class="4ever-article"><span style="color: #3F3F3F; font-family: Calibri; font-size: 20px; text-wrap-mode: wrap;">Notification of acceptance date</span></article></td></tr></tbody></table></div><div class="nrtab djbt" data-dianji="dianji1"><table><tbody><tr class="firstRow"><td valign="middle" style="word-break: break-all;border:none;" align="center" width="30%"><img class="select-Color" src="https://fhk.ais.cn/cms/website/editor/202503/384250321113459598.png" alt="396240228095637694.png" style="background: rgb(63, 63, 63); border-radius: 15px; width: 70px; height: 70px;" width="70" height="70" border="0" vspace="0"/></td><td valign="middle" style="word-break: break-all;border:none;" align="left" width="70%"><p><span style="font-size: 28px; color: #3F3F3F; font-family: Calibri;"></span></p><article class="4ever-article"><span style="font-size: 28px; color: #3F3F3F; font-family: Calibri;"><strong>September 20, 2026</strong></span></article><p style="margin-bottom: 0px;"><span style="color: #3F3F3F; font-family: Calibri; font-size: 20px; text-wrap-mode: wrap;">Final Paper Submission Date</span></p></td></tr></tbody></table></div><div class="nrtab djbt" data-dianji="dianji1" style="margin-bottom:25px;"><table><tbody><tr class="firstRow"><td valign="middle" style="word-break: break-all;border:none;" align="center" width="30%"><img class="select-Color" src="https://fhk.ais.cn/cms/website/editor/202503/384250321112955501.png" alt="396240228095637694.png" style="background: rgb(63, 63, 63); border-radius: 15px; width: 70px; height: 70px;" width="70" height="70" border="0" vspace="0"/></td><td valign="middle" style="word-break: break-all;border:none;" align="left" width="70%"><p><span style="font-size: 28px; color: #3F3F3F; font-family: Calibri;"><strong><strong style="color: rgb(63, 63, 63); font-family: Calibri; font-size: 28px; text-wrap-mode: wrap;"></strong></strong></span></p><article class="4ever-article"><span style="font-size: 28px; color: #3F3F3F; font-family: Calibri;"><strong>October 23-25, 2026</strong></span></article><p style="margin-bottom: 0px;"><span style="color: #3F3F3F; font-family: Calibri; font-size: 20px; text-wrap-mode: wrap;">Conference Dates</span><span style="color: #3F3F3F; font-family: Calibri; font-size: 20px;"><span style="color: #3F3F3F; font-family: Calibri; font-size: 20px; text-wrap-mode: wrap;"></span></span></p></td></tr></tbody></table></div></div></div><div class="zsy0r"><!-- 只保留一个图片区域 --><div id="dianji1" class="dianji active"><img src="https://fhk.ais.cn/cms/website/editor/202509/303250929105306353.jpg" alt="摄图网_500323727_深圳地标（企业商用）.jpg" width="654" height="648" style="width: 654px; height: 648px;"/></div></div></div></section></div></div><style>.djbt{ 
+    transition: all 500ms ease 0s;
+       line-height:60px;
+        text-align:center;
+       background:rgba(255,255,255);
+        padding:15px;
+       border-radius:20px;
+  box-shadow:0px 0px 10px rgba(25,25,25,0.3);
+      }
+   
+  .djbt.active{ 
+    transition: all 500ms ease 0s;
+   background:#0768AC;
+        box-shadow:0px 0px 40px rgba(25,25,25,0.1);
+        	transform: scale(1.05);
+  }
+         .djbt.active img{ 
+      background:#0768AC !important;
+          transition: all 500ms ease 0s;
+  }
+      
+      .djbt.active span{ 
+        color:rgba(255,255,255) !important;
+          transition: all 500ms ease 0s;
+  }
+  
+      
+      
+  .dianji {overflow: hidden;
+        background:rgba(240,240,240);
+        border-radius:25px;
+         height:100%;
+        width: 100%;
+       border:15px solid rgba(255,255,255);
+    display: none;
+  box-shadow:0px 0px 10px rgba(25,25,25,0.3);
+  }
+      
+       @media (max-width:768px) {
+       .djbt{  line-height:10px;
+        padding:0px 0px 20px;}
+        .dianji {}
+        .djbt img{margin-top:20px;
+  }
+      }
+      
+      
+      
+      .dianji img{
+     width: 100%;
+        height:auto;
+  }
+      
+      
+  .dianji.active {
+    display: block;
+  }
+      
+      
+  .nrtab { 
+     cursor: pointer;
+     vertical-align:middle;
+        justify-content:center;
+   display:flex;
+    margin:0px auto 25px;
+        width:100%;
+  }</style><script>// 获取所有的nrtab元素
+const nrtabs = document.querySelectorAll('.nrtab');
+
+// 为每个nrtab元素添加点击事件监听器
+nrtabs.forEach(nrtab =>{
+  nrtab.addEventListener('click', function() {
+    // 移除所有内容块的active类
+    const dianjis = document.querySelectorAll('.dianji');
+    dianjis.forEach(dianji => dianji.classList.remove('active'));
+    
+    // 显示与当前nrtab相关联的内容块
+    const dianjiId = this.getAttribute('data-dianji');
+    const dianji = document.getElementById(dianjiId);
+    dianji.classList.add('active');
+  });
+});
+
+// 获取所有的按钮
+const buttons = document.querySelectorAll('.djbt');
+
+// 为每个按钮添加点击事件监听器
+buttons.forEach(button => {
+  button.addEventListener('click', function() {
+    // 移除所有按钮的激活样式
+    buttons.forEach(btn => btn.classList.remove('active'));
+    // 给当前点击的按钮添加激活样式
+    this.classList.add('active');
+  });
+});</script>
+                </div>
+        </div>
+    </div>
+    <div style="background-color: #00000 !important;" >
+        <div class="news-page-en">
+                <div class="news-flex">
+                    <div class="line-en color-line"></div>
+                    <div class="news-title-en color-title">
+                        <span class="news-title-span">CFP</span>
+                    </div>
+                </div>
+                <div class="content-en">
+                    <style>.cfp{ display: grid;grid-template-columns: repeat(3, 1fr);gap:20px;}
+  .zsy4kk{background:#fff;border-radius:20px;padding:24px;box-shadow:0px 0px 10px rgba(25,25,25,0.3);}
+  .cfp img{width:90px;height:90px;margin-bottom:12px;}
+  
+  @media (max-width:768px) {.cfp{grid-template-columns: repeat(1, 1fr);}.cfp img{margin-bottom:0px;}}</style><div class="zsy"><div class="zsywd"><section class="story-part"><h2 style="margin-bottom: 24px; text-align: center;"><span style="font-family: Calibri;"><span class="selected1" style="font-size: 50px; color: #FF0000;"><strong>☀</strong></span><span style="font-size: 50px; color: #3F3F3F;"><strong> Topics</strong></span></span></h2><hr class="select-Color" style="width:200px"/><h3 style="margin-bottom: 24px; text-align: center;"><span style="font-size: 24px; color: #7F7F7F; font-family: Calibri;"></span></h3><p><span style="color: #7F7F7F; font-size: 20px;"><strong><span style="color: #7F7F7F; font-family: Calibri;">The conference welcomes original research articles, short papers, surveys, system papers, and demos on a broad range of topics in AI technologies for science and from science, including but not limited to:</span></strong></span></p><p><span style="color: #7F7F7F; font-size: 20px;"><strong><span style="color: #7F7F7F; font-family: Calibri;"><br/></span></strong></span></p><div class="cfp"><div class="zsy4kk suofang"><p style="text-align: center;"><img src="https://fhk.ais.cn/cms/website/editor/202505/384250513163535277.png" class="select-Color" alt="Nipic_28180273_20220602103056989.png" width="80" height="80" border="0" vspace="0" style="border-radius: 50%; width: 80px; height: 80px;padding:5px;"/></p><h3 style="margin-bottom: 12px; text-align: center;"><span style="color: #595959; font-size: 22px; font-family: Calibri;"><strong>AI Foundations for Scientific Discovery</strong></span></h3><p style="line-height: 2em; text-align: center;"><span style="color: #595959; font-size: 18px; font-family: Calibri;">Machine Learning;&nbsp;</span></p><p style="line-height: 2em; text-align: center;"><span style="color: #595959; font-size: 18px; font-family: Calibri;">Physics-informed AI, &nbsp;...</span></p></div><div class="zsy4kk suofang"><p style="text-align: center;"><img src="https://fhk.ais.cn/cms/website/editor/202505/384250513163535277.png" class="select-Color" alt="Nipic_28180273_20220602103056989.png" width="80" height="80" border="0" vspace="0" style="border-radius: 50%; width: 80px; height: 80px;padding:5px;"/></p><h3 style="margin-bottom: 12px; text-align: center;"><span style="color: #595959; font-size: 22px; font-family: Calibri;"><strong>Computer Vision and Intelligent Perception</strong></span></h3><p style="line-height: 2em; text-align: center;"><span style="color: #595959; font-size: 18px; font-family: Calibri;">Computational Imaging;&nbsp;</span></p><p style="line-height: 2em; text-align: center;"><span style="color: #595959; font-size: 18px; font-family: Calibri;">Image Reconstruction;&nbsp;</span></p><p style="line-height: 2em; text-align: center;"><span style="color: #595959; font-size: 18px; font-family: Calibri;">Computer Vision,&nbsp;...</span></p></div><div class="zsy4kk suofang"><p style="text-align: center;"><img src="https://fhk.ais.cn/cms/website/editor/202505/384250513163535277.png" class="select-Color" alt="Nipic_28180273_20220602103056989.png" width="80" height="80" border="0" vspace="0" style="border-radius: 50%; width: 80px; height: 80px;padding:5px;"/></p><h3 style="margin-bottom: 12px; text-align: center;"><span style="color: #595959; font-size: 22px; font-family: Calibri;"><strong>&nbsp;Data Intelligence and AI Systems</strong></span></h3><p style="line-height: 2em; text-align: center;"><span style="color: #595959; font-size: 18px; font-family: Calibri;">Data Mining;</span></p><p style="line-height: 2em; text-align: center;"><span style="color: #595959; font-size: 18px; font-family: Calibri;"></span><span style="color: #595959; font-family: Calibri; font-size: 18px;">Data Analytics,&nbsp;</span><span style="color: #595959; font-family: Calibri; font-size: 18px;">...</span></p></div></div><p class="suofang" style="text-align: center;margin-top:36px;"><a href="http://www.ic-ai4science.org/call_for_paper" target="_blank" class="input1 select-Color" textvalue="More"><strong><span class="sub" style="position: relative; z-index: 97; font-size: 24px; font-family: Calibri; text-decoration: none;">More</span></strong></a></p></section></div></div>
+                </div>
+        </div>
+    </div>
+    <div style="background-color: #00000 !important;" >
+        <div class="news-page-en">
+                <div class="news-flex">
+                    <div class="line-en color-line"></div>
+                    <div class="news-title-en color-title">
+                        <span class="news-title-span">Publication</span>
+                    </div>
+                </div>
+                <div class="content-en">
+                    <div class="zsy"><div class="zsywd"><section class="story-part"><h2 style="margin-bottom: 24px; text-align: center;"><span style="font-family: Calibri;"><span class="selected1" style="color: #FF0000;"><strong><span style="font-size: 50px;">☀</span></strong></span><span style="color: #3F3F3F;"><strong><span style="font-size: 50px;">&nbsp;Publication</span></strong></span></span></h2><hr class="select-Color" style="width:300px;"/><p style="text-align: justify; margin-bottom: 24px; line-height:2em;"><span style="color: #3F3F3F; font-family: Calibri; font-size: 24px;"></span></p><p><span style="font-family: Calibri; font-size: 24px; color: #7F7F7F;"></span></p><p style="text-wrap-mode: wrap;"><span style="font-family: Calibri; font-size: 24px; color: #7F7F7F;"></span></p><p style="margin: 5px 0px 24px; white-space: normal; text-align: justify;"><span style="font-family: arial, helvetica, sans-serif; font-size: 18px; color: #3F3F3F;"><img src="https://fhk.ais.cn/cms/website/editor/202606/334260615165314769.jpg" alt="360210913111904331.jpg" width="170" height="107" style="width: 170px; height: 107px;"/></span></p><p style="margin: 5px 0px 24px; white-space: normal; text-align: justify;"><span style="font-family: arial, helvetica, sans-serif; font-size: 18px; color: #3F3F3F;">All accepted full papers will be published in&nbsp;<strong style="text-indent: 32px; white-space: normal;"><span style="color: #C00000;">ACM International Conference Proceedings Series</span></strong> and will be submitted to<strong><span style="font-family: arial, helvetica, sans-serif; font-size: 18px; color: #C00000;">EI Compendex / Scopus</span></strong>&nbsp; for indexing.</span></p><p style="white-space: normal; text-align: justify;"><span style="font-family: arial, helvetica, sans-serif; font-size: 18px; color: #3F3F3F;">Note: All submitted articles should report original research results, experimental or theoretical, not previously published or under consideration for publication elsewhere. Articles submitted to the conference should meet these criteria. We firmly believe that ethical conduct is the most essential virtue of any academics. Hence, any act of plagiarism or other misconduct is totally unacceptable and cannot be tolerated.</span></p><p style="text-wrap-mode: wrap;"><span style="color: #7F7F7F;"><span style="font-family: Calibri; font-size: 24px; color: #7F7F7F;"></span></span><br/></p></section></div></div>
+                </div>
+        </div>
+    </div>
+    <div style="background-color: #00000 !important;" >
+        <div class="news-page-en">
+                <div class="news-flex">
+                    <div class="line-en color-line"></div>
+                    <div class="news-title-en color-title">
+                        <span class="news-title-span">Supported by</span>
+                    </div>
+                </div>
+                <div class="content-en">
+                    <meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><title>赞助商板块居中</title><style>/* 只针对当前代码段的样式 */
+        .zsy {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            padding: 40px 0;
+        }
+        
+        .zsywd {
+            width: 100%;
+            max-width: 1200px;
+        }
+        
+        .zsy5nr {
+            display: flex;
+            justify-content: center;
+        }
+        
+        .zsy5l {
+            width: 100%;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        /* 响应式设计 */
+        @media (min-width: 769px) and (max-width: 1024px) {
+            .zsy5nr {
+                display: block;
+            }
+            
+            .zsy5l {
+                margin-bottom: 100px;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .zsy5nr {
+                display: block;
+            }
+            
+            .zsy5l {
+                margin-bottom: 100px;
+            }
+            
+            /* 在小屏幕上调整图片大小 */
+            .zsy5l img {
+                max-width: 100%;
+                height: auto;
+            }
+        }</style><!-- 其他页面内容 --><div class="zsy"><div class="zsywd"><section class="story-part"><div class="zsy5nr"><div class="zsy5l"><h2 style="margin-bottom: 24px; text-align: center;"><span style="font-family: Calibri;"><span class="selected1" style="color: #FF0000;"><strong><span style="font-size: 50px;">☀</span></strong></span><span style="color: #3F3F3F;"><strong><span style="font-size: 50px;">Sponsor</span></strong></span></span></h2><p style="text-align: center; margin-top: 20px;"><strong style="color: rgb(63, 63, 63); font-family: Calibri; text-align: center; white-space: normal;"><span style="font-size: 50px;"><img src="https://fhk.ais.cn/cms/website/editor/202509/303250929101544202.png" alt="screenshot_2025-09-29_10-14-15-removebg-preview.png" width="401" height="83" style="width: 401px; height: 83px;"/><strong style="text-align: center; white-space: normal; color: rgb(63, 63, 63); font-family: Calibri;"><span style="font-size: 50px;"><img src="https://fhk.ais.cn/cms/website/editor/202512/341251219152042765.png" alt="logo彩稿_横向排布.png" width="385" height="81" style="width: 385px; height: 81px;"/></span></strong></span></strong><img src="https://fhk.ais.cn/cms/website/editor/202603/358260310171010117.png" alt="341250407154331116.png" width="341" height="95" style="width: 341px; height: 95px;"/></p><p style="margin-top: 20px;"><br/></p><h2 style="text-wrap-mode: wrap; margin-bottom: 24px; text-align: center;"><span style="font-family: Calibri;"><span class="selected1" style="color: #FF0000;"><strong><span style="font-size: 50px;"></span></strong></span></span></h2><h2 style="text-wrap-mode: wrap; margin-bottom: 24px; text-align: center;"><span style="font-family: Calibri;"><span class="selected1" style="color: #FF0000;"><strong><span style="font-size: 50px;">☀</span></strong></span></span><span style="font-family: Calibri;"><span style="color: #3F3F3F;"><strong><span style="font-family: Calibri; color: #3F3F3F; font-size: 50px;">Co-Sponsor</span></strong></span></span></h2><p style="text-align:center"><span style="font-family: Calibri;"><span style="color: #3F3F3F;"><strong><span style="font-size: 50px;"><img src="https://fhk.ais.cn/cms/website/editor/202606/334260616153441794.png" alt="CIS shenzhen.png"/></span></strong></span></span></p><p style="text-align: center;"><span style="font-family: Calibri;"><span style="color: #3F3F3F;"><strong><span style="font-size: 50px;"></span></strong></span></span><br/></p><p style="margin-top: 20px; text-align: center;"><br/></p></div></div></section></div></div><!-- 其他页面内容 --><!--!doctype-->
+                </div>
+        </div>
+    </div>
+    <div style="background-color: #ffffff !important;" >
+        <div class="news-page-en">
+                <div class="news-flex">
+                    <div class="line-en color-line"></div>
+                    <div class="news-title-en color-title">
+                        <span class="news-title-span">code</span>
+                    </div>
+                </div>
+                <div class="content-en">
+                    <style>.m-map-page{ padding:0px; width:100%;/*移动端宽度适应*/}
+.m-im-say{display:none;/*移动端标题隐藏*/}
+.news-flex{display:none;/*标题隐藏*/}
+.sub{color:#fff;}
+
+.suofang{transition: all 500ms ease 0s;} .suofang:hover{transform: scale(1.03);transition: all 500ms ease 0s;}
+@media (max-width:768px) { .suofang:hover{transform: scale(1);} }
+
+.layui-this{background-color:transparent !important;}
+  .layui-carousel-ind {top:30px; /*banner数量标识*/ }
+.layui-carousel{ height: 25vw !important;/*固定banner框架高度*/padding: 0px;  background-color:transparent;}
+.layui-carousel>[carousel-item] {border-radius: 0px 0px 50px 50px;}</style><style>
+	.story-right {  
+  opacity: 0;  
+    transform: translateX(100%); 
+  transition: all 1500ms ease 0s; 
+}  
+  
+/* 当章节进入视口时，设置透明度为1 */  
+.story-right.visibler {  
+  opacity: 1;  transform: translateX(0px); 
+  transition: all 1500ms ease 0s;
+}
+
+  @media (max-width:1024px) {
+.story-right {  
+  opacity: 1;  
+ transform: translateX(0%);
+  
+}  
+  
+/* 当章节进入视口时，设置透明度为1 */  
+.story-right.visibler {  
+  opacity: 1;  
+}
+}</style><script>
+	window.addEventListener('scroll', function() {  
+  var sectionsr = document.querySelectorAll('.story-right'); // 获取所有章节元素  
+  sectionsr.forEach(function(section, index) {  
+    var sectionTop = section.getBoundingClientRect().top; // 获取章节距离视口顶部的距离  
+    var viewportHeight = window.innerHeight; // 获取视口的高度  
+  
+    // 当章节距离视口顶部小于视口高度时，显示该章节  
+    if (sectionTop < viewportHeight) {  
+      section.classList.add('visibler'); // 添加visibler类，使章节可见  
+    } 
+  });  
+});</script><style>
+	.story-left {  
+  opacity: 0;  
+    transform: translateX(-100%); 
+  transition: all 1500ms ease 0s;
+  
+}  
+  
+/* 当章节进入视口时，设置透明度为1 */  
+.story-left.visiblel {  
+  opacity: 1;  transform: translateX(0px); 
+  transition: all 1500ms ease 0s;
+}
+
+  @media (max-width:1024px) {
+.story-left {  
+  opacity: 1;  
+ transform: translateX(0%);
+  
+}  
+  
+/* 当章节进入视口时，设置透明度为1 */  
+.story-left.visiblel {  
+  opacity: 1;  
+}
+}</style><script>
+	window.addEventListener('scroll', function() {  
+  var sectionsl = document.querySelectorAll('.story-left'); // 获取所有章节元素  
+  sectionsl.forEach(function(section, index) {  
+    var sectionTop = section.getBoundingClientRect().top; // 获取章节距离视口顶部的距离  
+    var viewportHeight = window.innerHeight; // 获取视口的高度  
+  
+    // 当章节距离视口顶部小于视口高度时，显示该章节  
+    if (sectionTop < viewportHeight) {  
+      section.classList.add('visiblel'); // 添加visiblel类，使章节可见  
+    } 
+  });  
+});</script><style>
+	.story-part {  
+  opacity: 0;  
+  transition: all 1500ms ease 0s;
+  
+}  
+  
+/* 当章节进入视口时，设置透明度为1 */  
+.story-part.visible {  
+  opacity: 1;  
+  transition: all 1500ms ease 0s;
+}
+
+  @media (max-width:1024px) {
+.story-part {  
+  opacity: 1;  
+}  
+  
+/* 当章节进入视口时，设置透明度为1 */  
+.story-part.visible {  
+  opacity: 1;  
+}
+}</style><script>
+	window.addEventListener('scroll', function() {  
+  var sections = document.querySelectorAll('.story-part'); // 获取所有章节元素  
+  sections.forEach(function(section, index) {  
+    var sectionTop = section.getBoundingClientRect().top; // 获取章节距离视口顶部的距离  
+    var viewportHeight = window.innerHeight; // 获取视口的高度  
+  
+    // 当章节距离视口顶部小于视口高度时，显示该章节  
+    if (sectionTop < viewportHeight) {  
+      section.classList.add('visible'); // 添加visible类，使章节可见  
+    } 
+  });  
+});</script>
+                </div>
+        </div>
+    </div>
+
+		</div>
+
+	</div>
+</div>
+	
+
+        <div class="footer">
+            <div class="footer-wrap1">
+
+                <div class="footer-left1">
+                        <p><a href="/agreement/en/privacyPolicy.html" target="_blank">Privacy Policy</a></p>
+                        <p><a href="/agreement/en/cookiePolicy.html" target="_blank">Cookie Policy</a></p>
+                        <p><a href="/agreement/en/termsAndConditions.html" target="_blank">Terms and Conditions</a></p>
+                </div>
+
+                <div class="footer-right1">
+                    <p>2026 International Conference on Artificial Intelligence for Science (AI4Science 2026)</p>
+                    <p>http://www.ic-ai4science.org/</p>
+                    <p>Copyright © &nbsp; AI4Science <script type="text/javascript">document.write(unescape("%3Cspan id='cnzz_stat_icon_1281354067'%3E%3C/span%3E%3Cscript src='https://s4.cnzz.com/z.js%3Fid%3D1281354067%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script> </p>
+                </div>
+
+            </div>
+        </div>
+
+
+
+<style>
+    /*底部*/
+    .footer {
+        width: 100%;
+        height: 100px;
+        background: #333333;
+        -webkit-box-flex: 0;
+        flex: 0 0 100px;
+    }
+
+    .footer-wrap {
+        width: 1200px;
+        height: 100px;
+        left: calc(50% - 600px);
+        background: #333333;
+        color: #989898;
+        font-size: 12px;
+        display: -webkit-box;
+        display: flex;
+        -webkit-box-pack: justify;
+        justify-content: space-between;
+        -webkit-box-align: center;
+        align-items: center;
+        margin: auto;
+    }
+
+    .footer-left {
+        -webkit-box-pack: justify;
+        justify-content: space-between;
+        -webkit-box-align: center;
+        align-items: center;
+        width: 527px;
+        display: -webkit-box;
+        display: flex;
+    }
+
+
+    .support > span {
+        line-height: 28px;
+    }
+
+
+    .meeting > img {
+        position: absolute;
+    }
+
+    .meeting > div {
+        text-align: center;
+    }
+
+    .footer-right {
+        line-height: 28px;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        flex: 1;
+        align-items: center;
+    }
+
+
+    .footer-wrap1 {
+        width: 900px;
+        max-width: 100%;
+        height: 100px;
+        left: calc(50% - 600px);
+        background: #333333;
+        color: #989898;
+        font-size: 12px;
+        display: -webkit-box;
+        display: flex;
+        -webkit-box-pack: justify;
+        justify-content: space-between;
+        -webkit-box-align: center;
+        align-items: center;
+        margin: auto;
+    }
+
+    .footer-right1 {
+        line-height: 25px;
+        flex: 0 0 82%;
+        max-width: 82%;
+        text-align: left;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+    .footer-left1 {
+        line-height: 25px;
+        flex: 0 0 18%;
+        max-width: 18%;
+        text-align: left;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+    .footer-left1 a {
+        color: inherit;
+        text-decoration: underline;
+        transition: color 0.3s ease;
+    }
+
+
+</style>
+<script>
+
+    function getClassDomList(className) {
+        return document.getElementsByClassName(className)
+    }
+
+    String.prototype.colorRgb = function () {
+        // 16进制颜色值的正则
+        var reg = /^#([0-9a-fA-f]{3}|[0-9a-fA-f]{6})$/;
+        // 把颜色值变成小写
+        var color = this.toLowerCase();
+        if (reg.test(color)) {
+            // 处理六位的颜色值，转为RGB
+            var colorChange = [];
+            for (var i = 1; i < 7; i += 2) {
+                colorChange.push(parseInt("0x" + color.slice(i, i + 2)));
+            }
+            return "RGBA(" + colorChange.join(",") + ")";
+        } else {
+            return color;
+        }
+    };
+
+    var classlist = ['color-title', '.color1'];
+    let color = '#CC5E7F'.colorRgb();
+    color = color.slice(0, color.length - 1) + ",0.1)";
+
+    for (let i = 0; i < classlist.length; i++) {
+        const list = getClassDomList(classlist[i])
+        for (let i = 0; i < list.length; i++) {
+            list[i].style.setProperty('background', color, 'important')
+        }
+    }
+
+</script>
+
+<style>
+    .colorOne {
+        color: #CC5E7F !important;;
+    }
+
+    .layui-nav .layui-this:after, .layui-nav-bar, .layui-nav-tree .layui-nav-itemed:after {
+        background-color: #CC5E7F !important;
+    }
+
+    .selected1 {
+        color: #CC5E7F !important;
+    }
+
+    .right-title-info1 {
+        color: #CC5E7F !important;;
+    }
+
+    .count-down1 {
+        background-color: #CC5E7F !important;;
+    }
+
+    .row {
+        background-color: #CC5E7F !important;;
+    }
+
+    .color-change {
+        background: #CC5E7F !important;
+    }
+
+    .color-line {
+        background-color: #CC5E7F !important;
+    }
+
+    .color-important {
+        background: #CC5E7F !important;
+    }
+
+    .dawn-bg {
+        background-color: #CC5E7F !important;
+    }
+
+
+    .select-Color {
+        background: #CC5E7F !important;
+    }
+
+    .layui-nav .layui-nav-more {
+        display: none;
+    }
+
+
+    .layui-hover:hover {
+        background: #CC5E7F !important;
+    }
+
+
+    .layui-nav .layui-nav-child a:hover {
+        background-color: rgba(7, 13, 89, .1) !important;
+    }
+
+    .layui-nav-bar {
+        background-color: white !important;
+    }
+
+    .layui-nav .layui-this:after,
+    .layui-nav-bar,
+    .layui-nav-tree .layui-nav-itemed:after {
+        background-color:  !important;
+    }
+
+    .layui-nav-child {
+        background-color: white;
+    }
+
+
+    .layui-nav .layui-nav-child a {
+        color: black !important;
+    }
+
+    .layui-nav .layui-nav-item a {
+        width: auto !important;
+        color : rgba(255,255,255,1);
+    }
+
+    .d1-color {
+        border-color: white white white #CC5E7F !important;
+    }
+
+    .layui-nav .layui-this:after, .layui-nav-bar, .layui-nav-tree .layui-nav-itemed:after {
+        background-color: white !important
+    }
+    .m-color-bg2{
+        background: #CC5E7F !important;
+    }
+
+    .m-imp-bg{
+        background: #CC5E7F !important;
+    }
+    .m-nav-color{
+        background: #CC5E7F !important;
+    }
+    .m2-right-bg1{
+        background: #CC5E7F !important;
+    }
+    .rightNavItem{
+        background: #CC5E7F !important;
+    }
+    .bottomNavItem{
+        background: #CC5E7F !important;
+    }
+
+    .bottomLanguage{
+        background: #CC5E7F !important;
+    }
+    .rightLanguage{
+        background: #CC5E7F !important;
+    }
+
+    body{background:url("https://fhk.ais.cn/cms/website/editor/202505/393250526165546919.jpg");font-family: Calibri;} * {box-sizing: border-box;}
+
+.tem-en-nav{ width:auto;} .footer-wrap {width:100% !important;}  .layui-nav * {font-size: 16px;font-weight:bold;}
+
+.content-en{width:100%;padding:0px;background:transparent;}  .news-page-en{width:100%;padding-top:0px;}  
+
+.table {width:80vw;margin:50px auto;background:transparent;} .table-span, .table-hr{display:none;} 
+
+.zsywd{width:1150px;margin:0px auto;} .zsy{margin: 100px 0px;} .zsydhl{padding:50px 0px 40px;}
+
+p{line-height: 2em;} .table {margin:0px auto;}  hr{margin:30px 0px;} .logo{margin:6px;background:#fff;border-radius:10px;padding:5px;}
+
+@media (min-width: 1025px) and (max-width: 1200px){.zsywd{width:975px;}}
+@media (min-width: 769px) and (max-width: 1024px){.zsywd{width:719px;}}
+@media (max-width:768px) {.zsywd{width:600px;} h3 {text-align:center !important; } h2 {text-align:center !important; }}
+
+</style>
+
+
+        <div class="setCookie none">
+            <div class="container">
+                <div class="cookieFlex">
+                    <div class="cookieLeft">
+                        <div class="leading-normal">
+                            To enhance your experience, with your consent for all our websites and applications, we (and
+                            our partners)
+                            store and/or access information on your device (cookies or corresponding information) when
+                            you connect.
+                            Our website may use these cookies to:
+                        </div>
+                        <div class="lis">
+                            Determine the audience of advertisements on our website without collecting data
+                        </div>
+                        <div class="lis">
+                            Display personalized ads based on your browsing and profile
+                        </div>
+                        <div class="lis">
+                            Personalize our editorial content according to your navigation
+                        </div>
+                        <div class="lis">
+                            Allow you to share content on social networks or platforms on our website
+                        </div>
+                    </div>
+                    <div class="cookieRight">
+                        <div class="argBtn">
+                            Accept All
+                        </div>
+                        <div class="argBtn reject">
+                            Reject All
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    <style>
+        .none {
+            display: none;
+        }
+
+        .container {
+            margin: 0 auto;
+            max-width: 1200px;
+        }
+
+        .setCookie {
+            background: #E6E7E7;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            z-index: 999;
+            line-height: 26px;
+        }
+
+        .cookieFlex {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            padding: 35px 0 12px;
+        }
+
+        .cookieLeft {
+            flex: 1;
+            font-size: 14px;
+            color: #333;
+        }
+
+        .cookieRight {
+            flex: 0 0 182px;
+            margin-left: 15px;
+        }
+
+        .lis {
+            margin-top: 1px;
+            position: relative;
+            top: 0;
+            padding-left: 25px;
+
+            &::before {
+                content: "";
+                position: absolute;
+                left: 0;
+                top: 16px;
+                width: 6px;
+                height: 6px;
+                background: #333333;
+                border-radius: 50%;
+            }
+        }
+
+        .argBtn {
+            width: 182px;
+            line-height: 46px;
+            background: #0768AC;
+            border-radius: 25px;
+            text-align: center;
+            font-weight: 500;
+            color: #FFFFFF;
+            font-size: 18px;
+            cursor: pointer;
+            margin-top: 25px;
+        }
+
+        .argBtn.reject {
+            background: rgba(0, 0, 0, .6);
+        }
+
+        @media (max-width: 768px) {
+            .setCookie {
+                padding: 14px;
+            }
+
+            .cookieFlex {
+                align-items: flex-start;
+                flex-direction: column;
+                padding: 10px 0 10px;
+            }
+
+            .cookieRight {
+                flex: 0 0 auto;
+                width: 100%;
+                margin-left: 0;
+            }
+
+            .lis {
+                line-height: 1.5;
+            }
+
+            .argBtn {
+                width: 100%;
+                line-height: 48px;
+                font-size: 18px;
+            }
+
+            .cookieLeft {
+                font-size: 16px;
+            }
+
+            .container {
+                max-width: 100%;
+            }
+        }
+    </style>
+
+
+    <script>
+        const cookies = localStorage.getItem('cookieConsent')
+        console.log(cookies)
+        if (!cookies) {
+            document.querySelector('.setCookie').classList.remove('none')
+        }
+        document.querySelector('.argBtn').addEventListener('click', function () {
+            localStorage.setItem('cookieConsent', '1')
+            document.querySelector('.setCookie').classList.add('none')
+        })
+        document.querySelector('.reject').addEventListener('click', function () {
+            localStorage.setItem('cookieConsent', '0')
+            document.querySelector('.setCookie').classList.add('none')
+        })
+    </script>
+
+
+<script type="text/javascript" src="https://img.ais.cn/thirds/common/stat.js?v=3"></script>
+<script>
+    (function () {
+        var timer = null;
+
+        function setFooterWidth() {
+            var contentEn = document.querySelector('.content-en');
+            var footerWrap1 = document.querySelector('.footer-wrap1');
+
+            if (contentEn && footerWrap1) {
+                footerWrap1.style.width = contentEn.offsetWidth + 'px';
+            }
+        }
+
+        setFooterWidth();
+
+        window.addEventListener('resize', function () {
+            clearTimeout(timer);
+            timer = setTimeout(setFooterWidth, 100);
+        });
+    })();
+</script>
+
+</div>
+<script>
+    $(window).scroll(function () {
+        var scrollTop = $(this).scrollTop();
+        var $header = $('#section');
+        var screenHeight = $(window).height();
+
+        if (scrollTop > screenHeight) {
+            $header.removeClass('scrolled').addClass('select-Color');
+        } else {
+            $header.removeClass('select-Color').addClass('scrolled');
+        }
+    });
+
+    $(window).trigger('scroll');
+</script>
+</body>
+</html>

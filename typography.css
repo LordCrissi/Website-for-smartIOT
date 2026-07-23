@@ -1,0 +1,29 @@
+/* Shared subpage readability overrides. */
+.breadcrumb { font-size: 15px; }
+.side-nav a { font-size: 17px; line-height: 1.4; }
+.page-content { font-size: 18px; }
+.person-card span { font-size: 16px; }
+.track-grid div::before { font-size: 15px; }
+.date-table th,
+.fee-table th { font-size: 16px; }
+.date-table td,
+.fee-table td { font-size: 17px; }
+.button-primary { font-size: 17px; }
+.speaker details p { font-size: 17px; }
+.journal-list span { font-size: 16px; }
+.status-box p,
+.contact-card p { font-size: 17px; }
+.news-detail-label { color: var(--blue); font-size: 14px; font-weight: 700; letter-spacing: .14em; }
+.secondary-button { background: var(--ink); }
+.news-back { margin-top: 35px; font-weight: 700; }
+.content-card .news-detail-label + h2 { margin-top: 8px; }
+
+@media (max-width: 900px) {
+  .page-content { font-size: 17px; }
+}
+
+@media (max-width: 600px) {
+  .fee-table { font-size: 15px; }
+  .fee-table th,
+  .fee-table td { font-size: 15px; }
+}

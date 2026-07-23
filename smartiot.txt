@@ -1,0 +1,507 @@
+
+
+
+
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+
+<HTML xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<HEAD><TITLE>SmartIoT-International Conference on Smart Internet of Things</TITLE>
+    <meta name="keywords"
+          content="  ithings 2016,  Internet of Things (IoT)  ,The 2026 International Conference on Internet of Things"/>
+    <LINK href="pics/styles.css?b=1" type=text/css rel=stylesheet>
+    <meta http-equiv="pragma" content="no-cache">
+
+    <meta http-equiv="cache-control" content="no-cache">
+
+    <meta http-equiv="expires" content="0">
+
+    <link rel="shortcut icon" href="pics/pdsec.ico"/>
+    <DIV style="MARGIN: 20px auto; WIDTH: 1200px; POSITION: relative"/>
+
+
+    <SCRIPT language=JavaScript>
+        var currentMenuItem = "";
+    </SCRIPT>
+
+    <script src="https://s3-us-west-2.amazonaws.com/ieeeshutpages/gdpr/settings.js"></script>
+    <link rel="stylesheet" type="text/css"
+          href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+    <script>
+        window.addEventListener("load", function(){
+            window.cookieconsent.initialise(json)
+        });
+    </script>
+
+    
+    
+
+</HEAD>
+
+<BODY>
+<div class="background-style_main">
+
+    
+
+    
+    
+    
+    
+    
+
+
+    <DIV id=framecontentTop>
+        
+            <!-- <img border="0" src="pics/smartdata.jpg" width="1000" height="238">-->
+            
+            
+            <img src="upload/topbg_smartiot9.png" width="1200" height="360">
+
+        
+    </DIV>
+
+
+    <DIV id=framecontentLeft style="position: absolute; left: 0px; top: 376px; height: auto;">
+        <DIV class=innertube2>
+            <ul>
+                <li class="menu-left"><a href="index.jsp">
+                    <div class="div-text-left"><span style="font-size: medium; "><b>Home</b></span></div>
+                </a></li>
+                <li class="menu-left"><a href="organizingcom.jsp">
+                    <div class="div-text-left"><span style="font-size: medium; "><b>Organizing Committee</b></span>
+                    </div>
+                </a></li>
+                <li class="menu-left"><a href="programcom.jsp">
+                    <div class="div-text-left"><span style="font-size: medium; "><b>Program Committee</b></span></div>
+                </a></li>
+                <li class="menu-left"><a href="callforpaper.jsp">
+                    <div class="div-text-left"><span style="font-size: medium; "><b>Call for Paper</b></span></div>
+                </a></li>
+                <li class="menu-left">
+                    <div class="div-text-left"><b>
+                        <div class="dropdown">
+                            <span style="font-size: medium; ">Workshops</span>
+                            <div class="dropdown-content">
+                                <a href="callforwork.jsp"><span
+                                        style="font-size:small;color: white;">Call for Workshop</span></a><br>
+                                <a href="listofworkshops.jsp"><span
+                                        style="font-size:small;color: white;">List of Workshops</span></a><br>
+                                <!-- <a href="workshopsubmission.jsp"><span style="font-size:small;color: white;">Workshop Submission</span></a> -->
+                            </div>
+                        </div>
+                    </b></div>
+                </li>
+                
+                <li class="menu-left "><a href="submission.jsp">
+                    <div class="div-text-left"><span style="font-size: medium; "><b>Submission</b></span></div>
+                </a></li>
+                <li class="menu-left"><a href="program.jsp">
+                    <div class="div-text-left"><span style="font-size: medium; "><b>Program</b></span></div>
+                </a></li>
+                <li class="menu-left"><a href="registration.jsp">
+                    <div class="div-text-left"><span style="font-size: medium; "><b>Registration</b></span></div>
+                </a></li>
+                <li class="menu-left"><a href="keynote.jsp">
+                    <div class="div-text-left"><span style="font-size: medium; "><b>Keynote Speakers</b></span></div>
+                </a></li>
+                
+                <li class="menu-left"><a href="specialissues.jsp">
+                    <div class="div-text-left"><span style="font-size: medium; "><b>Special Issues</b></span></div>
+                </a></li>
+                <li class="menu-left"><a href="venue.jsp">
+                    <div class="div-text-left"><span style="font-size: medium; "><b>Venue</b></span></div>
+                </a></li>
+                <li class="menu-left"><a href="accommodation.jsp">
+                <div class="div-text-left"><span style="font-size: medium; "><b>Accommodation</b></span></div>
+                </a></li>
+                <li class="menu-left"><a href="contact.jsp">
+                    <div class="div-text-left"><span style="font-size: medium; "><b>Contact</b></span></div>
+                </a></li>
+            </ul>
+        </DIV>
+
+        <DIV><br/> <br/> <br/></DIV>
+        <DIV>
+            <table>
+                <tr width="200">
+                    <TD class="head" width="200" height="40 "><SPAN class=headlight>News</SPAN></TD>
+                </tr>
+                <!-- News -->
+                <tr width="200" height="55">
+                    <td class=background-style style="width: 200px">
+                        
+                            <a href="News.jsp?id=0"> *&nbsp;The Call for Papers (CFP) for IEEE SmartIoT 2026 has been posted.</a>
+                            <br>
+                        
+                            <a href="News.jsp?id=7"> *&nbsp;Keynote speakers have been announced </a>
+                            <br>
+                        
+                            <a href="News.jsp?id=8"> *&nbsp;Submission deadline is extended to 25 May 2026 (Fixed)</a>
+                            <br>
+                        
+                            <a href="News.jsp?id=10"> *&nbsp;The author notification has been sent out</a>
+                            <br>
+                        
+                            <a href="News.jsp?id=11"> *&nbsp;Registration is open on 23 June, 2026</a>
+                            <br>
+                        
+                        <br>
+
+                    </td>
+                </tr>
+            </table>
+        </div>
+        
+
+        
+        
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        
+        
+        
+        
+
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+    </DIV>
+
+    <DIV id=framecontentRight style="position: absolute; left: 1017px; top: 391px; height: auto;">
+
+        <DIV class=innertube2>
+
+            <!-- Sponsor -->
+            <li class='menu'>
+                <div class='div-text'><font size="5"><b>Sponsors</b></font></div>
+            </li>
+
+            
+            <p align="center"><br><a href="https://www.ieee.org/" target="_blank"><img border="0" style="margin-left: -20px"
+                                                                                src="upload/1717036445386-1.png" width="150"></a>
+                
+            <p align="center"><br><a href="http://www.neu.edu.cn" target="_blank"><img border="0" style="margin-left: -20px"
+                                                                                src="upload/1739168102865northeastern.png" width="150"></a>
+                
+            <p align="center"><br><a href="http://www.lis.org.cn" target="_blank"><img border="0" style="margin-left: -20px"
+                                                                                src="upload/lnhlwxh.jpg" width="150"></a>
+                
+            <p align="center"><br><a href="" target="_blank"><img border="0" style="margin-left: -20px"
+                                                                                src="upload/syhkhtdx.png" width="150"></a>
+                
+            <p align="center"><br><a href="" target="_blank"><img border="0" style="margin-left: -20px"
+                                                                                src="upload/sygydx.jpg" width="150"></a>
+                
+            <p align="center"><br><a href="https://www.westernsydney.edu.au/" target="_blank"><img border="0" style="margin-left: -20px"
+                                                                                src="upload/1737704715129western sydney university.png" width="150"></a>
+                
+            <p align="center"><br><a href="http://www.tju.edu.cn/" target="_blank"><img border="0" style="margin-left: -20px"
+                                                                                src="upload/1737704930126tju.jpg" width="150"></a>
+                
+            <p align="center"><br><a href="https://hkust.edu.hk/" target="_blank"><img border="0" style="margin-left: -20px"
+                                                                                src="upload/hktU.svg" width="150"></a>
+                
+            <p align="center"><br><a href="https://www.xidian.edu.cn/" target="_blank"><img border="0" style="margin-left: -20px"
+                                                                                src="upload/1737705069786xidian.jpg" width="150"></a>
+                
+            <p align="center"><br><a href="https://www.ustb.edu.cn/ " target="_blank"><img border="0" style="margin-left: -20px"
+                                                                                src="upload/1737705107037beike.png" width="150"></a>
+                
+            <p align="center"><br><a href="https://www.scu.edu.cn/ " target="_blank"><img border="0" style="margin-left: -20px"
+                                                                                src="upload/1737705138873sichuan.png" width="150"></a>
+                
+            <p align="center"><br><a href="https://www.dlut.edu.cn/" target="_blank"><img border="0" style="margin-left: -20px"
+                                                                                src="upload/1737704970816dju.png" width="150"></a>
+                
+            <p align="center"><br><a href="https://sia.cas.cn" target="_blank"><img border="0" style="margin-left: -20px"
+                                                                                src="upload/shenzisuo.png" width="150"></a>
+                
+            <p align="center"><br><a href="https://www.exeter.ac.uk" target="_blank"><img border="0" style="margin-left: -20px"
+                                                                                src="upload/exeter.png" width="150"></a>
+                
+            <p align="center"><br><a href="http://ieee-smartiot.org" target="_blank"><img border="0" style="margin-left: -20px"
+                                                                                src="upload/1737705162259smartiot.png" width="150"></a>
+                
+
+        </DIV>
+    </DIV>
+
+
+    <BR>
+
+
+    <DIV id=maincontent style="WIDTH: 781px; position:absolute; left:210px; top:387px; height:auto;">
+        <DIV class=innertube>
+            <SCRIPT language=JavaScript>
+                currentMenuItem = "home";
+                //preLoadImages();	// set the color for previous selected menu
+            </SCRIPT>
+
+            <!-- all main content go here -->
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            <TABLE class=normal-style>
+                <tbody>
+                <tr>
+                    <td class="head"><span class="headlight_top">Welcome to SmartIoT 2026</span></td>
+                </tr>
+                <tr>
+                    <td class="background-style"
+                        style="PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; PADDING-TOP: 10px;">
+
+
+
+
+
+
+
+
+
+
+
+                        <br>
+                        <p align="justify" style="margin-top: -20px">Internet of Things (IoT) plays an important role in the current and future generation of information, network, and communication developing and applications. Smart IoT is an exciting emerging research field that has great potential to transform both our understanding of fundamental computer science principles and our standard of living. IoT is being employed in more and more areas making “Everything Smart”, such as smart home, smart city, intelligent transportation, environment monitoring, security systems, and advanced manufacturing. IEEE International Conference on Smart Internet of Things (IEEE SmartIoT) focuses on these challenges.</p>
+                        <p align="justify">The 10th IEEE International Conference on Smart Internet of Things (IEEE SmartIoT 2026) will be held on 21-24, August 2026 at Shenyang, China. The primary goal of IEEE SmartIoT 2026 is to exchange, share and discuss the latest research, theories and applications for Smart Internet of Things and Cyber-Physical Systems (CPS). Prospective authors are invited to submit original research papers, which propose new methodologies, propose new research directions and discuss approaches or schemes for current existing issues. Topics of interests include, but are not limited to:</p>
+
+                        <p align="justify">* Track 1. IoT Sensing, monitoring, networking and routing</p>
+                        <p align="justify">* Track 2. Big data analysis and Cloud computing</p>
+                        <p align="justify">* Track 3. Edge computing/Fog computing</p>
+                        <p align="justify">* Track 4. Smart cities, intelligent transportation and internet of
+                            vehicles</p>
+                        <p align="justify">* Track 5. Artificial Intelligence, machine learning and evolutionary
+                        Computing </p>
+                        <p align="justify">* Track 6. Social networks, multimedia and mobile computing</p>
+                        <p align="justify">* Track 7. Blockchain and emerging research or Technologies</p>
+                        <p align="justify">* Track 8. Industrial 4.0 and Industrial IoT</p>
+                        <p align="justify">* Track 9. Control and decision making for smart IoT or CPS</p>
+                        <p align="justify">* Track 10. Security and privacy for smart IoT or CPS</p>
+                        <br>
+                       
+                        <p>
+                            Papers need to be prepared according to the IEEE format, and submitted in PDF format via via the<a
+                            href="submission.jsp"> SmartIoT : 2026 submission site</a> (Submissions are now closed).</p>
+                        <p>Accepted and presented papers will be included in the Conference Proceedings published
+                            by CS Press (indexed by EI). At least one author of accepted papers MUST register and
+                            present their work at the conference; otherwise, their papers will be removed from the
+                            digital libraries of CS and EI after the conference. Authors of 50% papers will be
+                            invited to submit their paper to a special issue in a SCI-indexed journal. Information about
+                            these journal special issues are available on the website.
+
+                        </p>
+                        <br>
+
+                        <p align="center">
+                        </p></td>
+                </tr>
+                </tbody>
+            </TABLE>
+
+            <BR>
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            <TABLE class=border-style>
+                <TBODY>
+                <TR>
+                    <TD class=head colSpan=2><SPAN class=headlight>Important Dates</SPAN></TD>
+                </TR>
+
+
+                
+                    <TR class=cell>
+                        <TD class=background-style width="400"><SPAN
+                                class=softemphasize><b>Submission Due:
+          </b></SPAN></TD>
+                        <TD class=background-style width="268"><SPAN
+                                class=softemphasize><b><span style="color: red;">Extended to 25 May, 2026 （Fixed）</span></b></SPAN></TD>
+                    </TR>
+                
+                    <TR class=cell>
+                        <TD class=background-style width="400"><SPAN
+                                class=softemphasize><b>Author Notification:
+          </b></SPAN></TD>
+                        <TD class=background-style width="268"><SPAN
+                                class=softemphasize><b>20 June, 2026</b></SPAN></TD>
+                    </TR>
+                
+                    <TR class=cell>
+                        <TD class=background-style width="400"><SPAN
+                                class=softemphasize><b>Camera-ready Paper Due:
+          </b></SPAN></TD>
+                        <TD class=background-style width="268"><SPAN
+                                class=softemphasize><b>1 July, 2026</b></SPAN></TD>
+                    </TR>
+                
+                    <TR class=cell>
+                        <TD class=background-style width="400"><SPAN
+                                class=softemphasize><b>Registration Due:
+          </b></SPAN></TD>
+                        <TD class=background-style width="268"><SPAN
+                                class=softemphasize><b>8 July, 2026</b></SPAN></TD>
+                    </TR>
+                
+                    <TR class=cell>
+                        <TD class=background-style width="400"><SPAN
+                                class=softemphasize><b>Conference Date:
+          </b></SPAN></TD>
+                        <TD class=background-style width="268"><SPAN
+                                class=softemphasize><b>21-24 Aug, 2026</b></SPAN></TD>
+                    </TR>
+                
+                </TBODY>
+            </TABLE>
+            <BR>
+
+            <table class=normal-style>
+                <tbody>
+                <TR>
+                    <TD class=head colSpan=2><SPAN class=headlight>Conference History</SPAN></TD>
+                </TR>
+                <tr class=cell>
+                    <td class="background-style"
+                        style="PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; PADDING-TOP: 10px">
+                        <p><a href="https://ieee-smartiot.org/SmartIoT2025/index.jsp"><img src="./pics/aa.JPG"
+                                                                                           height="15px;/"> SmartIoT
+                            2025, Sydney, Australia</a></p>
+                        <p><a href="https://ieee-smartiot.org/SmartIoT2024/index.jsp"><img src="./pics/aa.JPG"
+                                                                                           height="15px;/"> SmartIoT
+                            2024, Shenzhen, China</a></p>
+                        <p><a href="https://ieee-smartiot.org/SmartIoT2023/index.jsp"><img src="./pics/aa.JPG"
+                                                                                           height="15px;/"> SmartIoT
+                            2023, Xining, China</a></p>
+                        <p><a href="https://ieee-smartiot.org/SmartIoT2022/index.jsp"><img src="./pics/aa.JPG"
+                                                                                           height="15px;/"> SmartIoT
+                            2022, Suzhou, China</a></p>
+                        <p><a href="https://ieee-smartiot.org/SmartIoT2021/index.jsp"><img src="./pics/aa.JPG"
+                                                                                           height="15px;/"> SmartIoT
+                            2021, Jeju Island, South Korea</a></p>
+                        <p><a href="https://ieee-smartiot.org/SmartIoT2020/index.jsp"><img src="./pics/aa.JPG"
+                                                                                           height="15px;/"> SmartIoT
+                            2020, Beijing, China</a></p>
+                        <p><a href="https://ieee-smartiot.org/SmartIoT2019/index.jsp"><img src="./pics/aa.JPG"
+                                                                                           height="15px;/"> SmartIoT
+                            2019, Tianjin, China</a></p>
+                        <p><a href="https://ieee-smartiot.org/SmartIoT2018/index.jsp"><img src="./pics/aa.JPG"
+                                                                                           height="15px;/"> SmartIoT
+                            2018, Xi'an, China</a></p>
+                        <p><img src="./pics/aa.JPG" height="15px;/"> SmartIoT 2017, Dalian, China</p>
+
+                    </td>
+                </tr>
+                </tbody>
+
+            </table>
+            <BR>
+
+            <TABLE class=normal-style>
+                <TR>
+                    <TD class="head" colspan="3"><SPAN class=headlight>Journal Special Issues</SPAN></TD>
+                </TR>
+                <!-- Special Issues -->
+
+                <TR class="cell">
+                    <TD class="background-style td-image">
+                        <img src="./upload/IEEE Internet of Things Journal.png"/>
+                        <span>IEEE Internet of Things Journal (IEEE, SCI)</span>
+                    </TD>
+                    <TD class="background-style td-image">
+                        <img src="./upload/IEEE Network-2.png"/>
+                        <span>IEEE Network (IEEE, SCI)</span>
+                    </TD>
+                    <TD class="background-style td-image" width="350">
+                        <img src="./upload/Sensors.png"/>
+                        <span>Sensors (MDPI Journal, SCI)</span>
+                    </TD>
+                </TR>
+
+                <TR class="cell">
+                    <TD class="background-style td-image" width="400">
+                        <img src="./upload/IEEE Transactions on Network Science and Engineering.png"/>
+                        <span>IEEE Transactions on Network Science and Engineering (IEEE, SCI)</span>
+                    </TD>
+                    <TD class="background-style td-image" >
+                        <img src="./upload/Journal of Cloud Computing.jpg"/>
+                        <span>Journal of Cloud Computing (Springer, SCI)</span>
+                    </TD>
+                </TR>
+
+
+
+
+
+
+
+
+
+
+            </TABLE>
+            <BR></DIV>
+
+        <DIV align=center>
+            Copyright ©SmartIoT2026. All Rights Reserved.
+            <BR> Created and Maintained by SmartIoT2026 <BR> <BR>
+            <div style="text-align: center;margin-top: -20px">
+                Access Counter: 469814
+            </div>
+
+
+        </DIV>
+
+    </DIV>
+
+</div>
+</BODY>
+</HTML>
